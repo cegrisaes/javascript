@@ -23,7 +23,6 @@ document.getElementById("hijo-6").addEventListener("click", function () {
 });
 
 document.getElementById("padre").addEventListener("click", function (event) {
-  //  Es el estándar. Los nombre de nodos siempre se representan en mayúsculas.
   if (event.target && event.target.nodeName === "LI") {
     console.log("click en Item" + event.target.id.replace("hijo-", " "));
   }
